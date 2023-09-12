@@ -4,6 +4,7 @@
 }
 
 body {
+  background-color: #fbf8ee;
   font-family: Roboto;
   color: var(--primary-color);
   margin: 0;
@@ -38,6 +39,14 @@ p {
 .container {
   display: flex;
   padding: 8px 25px;
+}
+.summery-section {
+  padding: 15px;
+  background-color: rgb(254, 253, 249);
+}
+
+.contact-inform-title {
+  text-align: center;
 }
 
 .skills-title {
