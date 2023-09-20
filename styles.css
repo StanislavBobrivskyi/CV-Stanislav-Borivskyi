@@ -35,7 +35,6 @@ p {
 }
 
 .container {
-  background-color: #fdfbf4;
   margin: 0 auto;
   width: 1200px;
   display: flex;
@@ -44,6 +43,9 @@ p {
 .summery-section {
   padding: 15px;
   background-color: rgb(255, 255, 255);
+}
+.contact-section {
+  background-color: #fdfbf4;
 }
 
 .contact-inform-title {
@@ -80,4 +82,7 @@ p {
 
 .main-section-title {
   margin-left: 40px;
+}
+.picture img {
+  margin-left: 19px;
 }
