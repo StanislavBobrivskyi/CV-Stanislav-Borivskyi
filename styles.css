@@ -17,7 +17,6 @@ h4,
 h5 {
   font-size: 18px;
   font-weight: 700;
-  line-height: 64px;
 }
 a {
   color: var(--secondary-color);
@@ -42,7 +41,7 @@ p {
 }
 .summery-section {
   padding: 15px;
-  background-color: rgb(254, 253, 249);
+  background-color: rgb(255, 255, 255);
 }
 
 .contact-inform-title {
