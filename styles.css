@@ -4,7 +4,6 @@
 }
 
 body {
-  background-color: #fbf8ee;
   font-family: Roboto;
   color: var(--primary-color);
   margin: 0;
@@ -36,6 +35,9 @@ p {
 }
 
 .container {
+  background-color: #fdfbf4;
+  margin: 0 auto;
+  width: 1200px;
   display: flex;
   padding: 8px 25px;
 }
