@@ -3,6 +3,14 @@
   --secondary-color: #5a80a4;
 }
 
+ul {
+  padding: 0;
+  margin-left: 20px;
+}
+li {
+  font-size: 19px;
+  margin-bottom: 8px;
+}
 body {
   font-family: Roboto;
   color: var(--primary-color);
@@ -14,21 +22,21 @@ h2,
 h3,
 h4,
 h5 {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
 }
 a {
   color: var(--secondary-color);
-  font-size: 16px;
+  font-size: 19px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
 }
 
 p {
-  font-size: 14px;
+  margin-bottom: 8px;
+  font-size: 19px;
   font-weight: 400;
-  line-height: 28px;
 }
 .titel {
   font-size: 28px;
@@ -49,11 +57,9 @@ p {
 }
 
 .contact-inform-title {
-  text-align: center;
 }
 
 .skills-title {
-  text-align: center;
 }
 
 .contact-link {
@@ -81,8 +87,33 @@ p {
 }
 
 .main-section-title {
+  text-align: center;
   margin-left: 40px;
 }
-.picture img {
-  margin-left: 19px;
+
+.email-link {
+  display: flex;
+}
+
+.skills-list {
+  padding-left: 5px;
+}
+
+.svg-email {
+  padding-right: 3px;
+}
+
+.skills-list-inform {
+  list-style: none;
+  margin-left: 5px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.first-link {
+  margin-right: 10px;
 }
